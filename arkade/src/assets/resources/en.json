@@ -1,0 +1,8 @@
+{
+  "navbar": {
+      "brand": "ArKade",
+      "home": "Home",
+      "login": "Login",
+      "register": "Register"
+  }
+}
