@@ -12,10 +12,18 @@ Create a workspace and initial application
 
 In the App folder:
 
+
+Option 1
+
 Add JQuery:
 ```npm install jquery --save```
 
 Add Bootstrap:
 ```npm install bootstrap```
 
-add @import "~bootstrap/dist/css/bootstrap.css"; in styles.css
+Add Popper.js (required for Bootstrap)
+```npm i @popperjs/core --save```
+
+Option 2 
+
+Direct import files into Index.html

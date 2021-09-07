@@ -8,6 +8,7 @@ import { ResourceService } from 'src/app/services/resource.service';
 })
 export class NavbarComponent implements OnInit {
   navbarResource: any;
+
   constructor(private resource: ResourceService) { }
 
   ngOnInit(): void {
