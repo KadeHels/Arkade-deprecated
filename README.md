@@ -11,19 +11,20 @@ Create a workspace and initial application
 ```ng new my-app```
 
 In the App folder:
+npm install bootstrap --save
+npm install jquery --save
+npm install popper.js --save
 
+In angular.json:
+"styles": [
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.css"
+],
+"scripts": [
+    "node_modules/jquery/dist/jquery.min.js",
+    "node_modules/bootstrap/dist/js/bootstrap.min.js"
+]
 
-Option 1
+In src/style.css:
 
-Add JQuery:
-```npm install jquery --save```
-
-Add Bootstrap:
-```npm install bootstrap```
-
-Add Popper.js (required for Bootstrap)
-```npm i @popperjs/core --save```
-
-Option 2 
-
-Direct import files into Index.html
+@import "~bootstrap/dist/css/bootstrap.css";
