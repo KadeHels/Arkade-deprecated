@@ -15,11 +15,7 @@ export class ResourceService {
   public getResources(): any {
 
     if (!this.resource) {
-      console.log('Getting Initial Resource: ');
-
       this.resource = data;
-
-      console.log(this.resource);
     }
 
     return this.resource;

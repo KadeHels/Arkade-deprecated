@@ -1,0 +1,50 @@
+
+  <div class="row">
+
+    <!-- Distance section -->
+    <div class="col">    
+      <div class="input-group">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button" (click)="calcDistance()">{{ gravityResource.calc }}</button>
+        </span>
+        <input type="text" [(ngModel)]="distance" class="form-control" placeholder="{{ gravityResource.distancePlaceholder }}">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button" (click)="changeDistance()">{{ distanceUnit }}</button>
+        </span>
+      </div>
+    </div>
+    <!-- End Distance -->
+
+    <div class="col-auto">  {{ gravityResource.equalSymbol }} </div>
+
+    <!-- Gravity Section -->
+    <div class="col">
+      <div class="input-group">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button" (click)="calcGravity()">{{ gravityResource.calc }}</button>
+        </span>
+        <input type="text" [(ngModel)]="gravity" class="form-control" placeholder="{{ gravityResource.gravityPlaceholder }}">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button" (click)="changeGravity()">{{ gravityUnit }}</button>
+        </span>
+      </div>
+    </div>
+    <!-- End Gravity -->
+
+    <div class="col-auto"> {{ gravityResource.multiplySymbol }} </div>
+
+    <!-- Time Section -->
+    <div class="col">
+      <div class="input-group">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button" (click)="calcTime()">{{ gravityResource.calc }}</button>
+        </span>
+        <input type="text" [(ngModel)]="time" class="form-control" placeholder="{{ gravityResource.timePlaceholder }}">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">s</button>
+        </span>
+      </div>
+    </div>
+    <!-- End Time -->
+
+  </div>

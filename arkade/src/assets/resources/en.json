@@ -8,11 +8,26 @@
   "home": {
     "title": "Hello, World!",
     "body": " Welcome to the ArKade site! ",
-    "body2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
+    "body2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "learn": "Learn More"
   },
   "pageNotFound": {
     "title": "404",
     "description": "This page is not found!"
+  },
+  "gravity": {
+    "multiplySymbol" : "X",
+    "equalSymbol" : "=",
+    "calc" : "Calc.",
+    "distancePlaceholder" : "Distance",
+    "gravityPlaceholder" : "Gravity",
+    "timePlaceholder" : "Time"
+    
+  },
+  "fibonacci": {
+    "title": "Fibonacci Calculator",
+    "fibonacciDescription": "n mathematics, the Fibonacci numbers, commonly denoted Fₙ, form a sequence, the Fibonacci sequence, in which each number is the sum of the two preceding ones. The sequence commonly starts from 0 and 1, although some authors omit the initial terms and start the sequence from 1 and 1 or from 1 and 2.",
+    "start1Title": "Enter First Starting Number:",
+    "start2Title": "Enter Second Starting Number:"
   }
 }

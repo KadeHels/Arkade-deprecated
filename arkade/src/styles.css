@@ -2,27 +2,24 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-body {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: normal;
-}
-
-.brand {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
-}
-
 html {
   height: 100%;
 }
 
 body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
   height: 100%;
   background-image: url("/assets/images/backgroundpng.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
 }
 
 .cover {
